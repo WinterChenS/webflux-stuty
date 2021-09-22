@@ -1,0 +1,110 @@
+
+###
+
+POST http://localhost:8080/user
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "jay",
+  "address": "taiwan"
+}
+
+<> 2021-09-22T154406.200.json
+
+###
+
+DELETE http://localhost:8080/user/614ad54fcff0712acdb6f50c
+Accept: application/json
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/user/all
+Accept: application/json
+Content-Type: application/json
+
+###
+PUT http://localhost:8080/user
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": "614adeed528fda146cab4060",
+  "username": "win",
+  "address": "hz"
+}
+
+
+###
+GET http://localhost:8080/person/
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-09-22T162534.200.json
+<> 2021-09-22T162428.200.json
+<> 2021-09-22T162307.404.json
+<> 2021-09-22T161758.404.json
+
+###
+POST http://localhost:8080/person/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 4,
+  "name":"winter4",
+  "address":"hangzhou"
+}
+
+<> 2021-09-22T162606.200.json
+<> 2021-09-22T162600.200.json
+<> 2021-09-22T162530.200.json
+<> 2021-09-22T162524.200.json
+<> 2021-09-22T162519.200.json
+<> 2021-09-22T162514.200.json
+<> 2021-09-22T162508.200.json
+<> 2021-09-22T162423.200.json
+<> 2021-09-22T162420.200.json
+<> 2021-09-22T162417.200.json
+<> 2021-09-22T162413.200.json
+<> 2021-09-22T162410.200.json
+<> 2021-09-22T162353.200.json
+<> 2021-09-22T162256.404.json
+<> 2021-09-22T162212.404.json
+<> 2021-09-22T162159.404.json
+<> 2021-09-22T162134.404.json
+<> 2021-09-22T162111.404.json
+<> 2021-09-22T162049.404.json
+
+###
+DELETE http://localhost:8080/person/4
+Accept: application/json
+Content-Type: application/json
+
+###
+GET http://localhost:8080/user/
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-09-22T165818.200.json
+
+###
+POST http://localhost:8080/user/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "username": "winter",
+  "address": "hangzhou"
+}
+
+<> 2021-09-22T165802.200.json
+
+###
+DELETE http://localhost:8080/user/1
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-09-22T165850.404.json
+<> 2021-09-22T165823.404.json
